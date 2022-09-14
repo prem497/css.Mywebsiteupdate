@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family:cursive;
+  background-color: #6FEDD6;
+  }
+h1{
+  margin-top: 0;
+  font-family: cursive;
+  }
+p {
+  position: left;
+}
+
+.top-container {
+  background-color: #FFDE00;
+  position: relative;
+  padding-top : 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  }
+
+.top-cloud {
+  position: center;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: center;
+  left: 300px;
+  bottom: 300px;
+}
+.imgs-header{
+  display: flex;
+  justify-content: center;
+}
+
+.img-cloud{
+  width: 10%;
+  height: 10%;
+  margin-right: 20px;
+}
+
+.img-moutain{
+  width: 10%;
+  height: 10%;
+  margin-left: 20px;
+}
+
+/* about me section */
+
+.about-me{
+  margin-top: 40px;
+}
+
+.img-prems{
+  border-radius: 50%;
+}
+
+
+/* my skills section */
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-row img{
+  width: 25%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.h3{
+  width: 25%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.right{
+  float: right;
+}
+
+.contact-me button{
+  margin-top: 40px;
+  background-color: red;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact-me button:hover{
+  background-color: green;
+}
